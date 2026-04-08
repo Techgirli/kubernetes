@@ -2,7 +2,16 @@
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.17.1/.schema/devbox.schema.json",
   "packages": [
     "ripgrep@latest",
-    "python@3.10"
+    "python@3.10",
+    "kubectl@latest",
+    "k9s@latest",
+    "minikube@latest",
+    "kind@latest",
+    "terraform@latest",
+    "pulumi@latest",
+    "docker",
+    "buildkit@latest",
+    "helm@latest"
   ],
   "shell": {
     "init_hook": [
